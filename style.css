@@ -116,6 +116,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 100%;
   /* width: 5rem;
   height: 5rem; */
 
@@ -127,18 +128,18 @@ body {
 
 @keyframes menu-circle-big {
   0% {
-    width: 0px;
-    height: 0px;
     opacity: 0;
   }
 
   25% {
     opacity: 1;
+    width: 50vh;
+    height: 50vh;
   }
 
   100% {
-    width: 100vh;
-    height: 100vh;
+    width: 200vh;
+    height: 200vh;
     /* margin-left: -100vh;
     margin-top: -100vh; */
     opacity: 0;
